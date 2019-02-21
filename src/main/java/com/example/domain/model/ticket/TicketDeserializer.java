@@ -1,8 +1,5 @@
-package com.example.infrastructure.configuration.jackson;
+package com.example.domain.model.ticket;
 
-import com.example.domain.model.ticket.Price;
-import com.example.domain.model.ticket.Ticket;
-import com.example.domain.model.ticket.Title;
 import com.example.domain.type.money.Amount;
 
 import com.fasterxml.jackson.core.JsonParser;
@@ -11,7 +8,6 @@ import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.JsonNode;
 
 import java.io.IOException;
-import java.math.BigDecimal;
 
 class TicketDeserializer extends JsonDeserializer<Ticket> {
 

@@ -30,12 +30,4 @@ public class Ticket {
 
     private Ticket() {
     }
-
-    public Title title() {
-        return title;
-    }
-
-    public Amount price() {
-        return price.amount;
-    }
 }

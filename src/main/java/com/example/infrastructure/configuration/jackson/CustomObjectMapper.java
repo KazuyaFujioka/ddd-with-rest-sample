@@ -2,6 +2,7 @@ package com.example.infrastructure.configuration.jackson;
 
 import com.example.domain.model.ticket.Ticket;
 
+import com.example.domain.model.ticket.TicketMixin;
 import com.example.domain.type.money.Amount;
 import com.example.domain.type.money.AmountMixin;
 

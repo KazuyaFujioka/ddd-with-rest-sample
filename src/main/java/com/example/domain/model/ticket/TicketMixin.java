@@ -1,4 +1,4 @@
-package com.example.infrastructure.configuration.jackson;
+package com.example.domain.model.ticket;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
